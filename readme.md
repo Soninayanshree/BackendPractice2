@@ -1,30 +1,3 @@
-<!-- In this practice express app :
-
-I have learn about flash message : flash msg allow to send msg from one router to other router and they are like alerts,  warning popups.
-
-# Steps for flash message :
-
-1) install connect-flash //package for flash 
-2)use express-session setup to use flash
-  1)install express-session
-  2)require and setup in app.js 
-  3)use in index.js
-
-3)create flash in any router for this we write this code
-  req.flash("name" , value);
-
-4)use this in other router for this we write this code 
-  console.log(req.flash("name"));
-
-# intermediate mongodb :
-
-1)install mongoose
-npm i mongoose
-
-2) setup mongoose in user.js for creating db
-
-3)here we slove mongodb problems on some topics like case-sensitvie , find doc where an array filed contains all set of values , search doc based on specific data range  ,filter doc based on existing field in mongoose  , filter doc based on specific field's length -->
-
 # Practice Express App
 
 This is a practice Express.js application where I explored and implemented two main concepts:
